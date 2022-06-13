@@ -42,7 +42,7 @@ export default () => {
 
   return (
     <div>
-      
+
       <Header />
 
       <Route path="/">
@@ -60,6 +60,7 @@ export default () => {
       <Route path="/translate">
         <Translate />
       </Route>
+      
     </div>
   );
 }
